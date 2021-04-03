@@ -119,6 +119,10 @@ HUGGINGFACE_DATASET_BY_MODEL = {
     #
     # distilbert-base-uncased
     #
+    "distilbert-base-uncased-sst2": (
+        "textattack/distilbert-base-uncased-SST-2",
+        ("glue", "sst2", "validation"),
+    ),
     "distilbert-base-uncased-ag-news": (
         "textattack/distilbert-base-uncased-ag-news",
         ("ag_news", None, "test"),
@@ -194,6 +198,10 @@ HUGGINGFACE_DATASET_BY_MODEL = {
     "roberta-base-wnli": (
         "textattack/roberta-base-WNLI",
         ("glue", "wnli", "validation"),
+    ),
+    "roberta-base-mnli": (
+        "textattack/roberta-base-MNLI",
+        ("glue", "mnli", "validation"),
     ),
     #
     # albert-base-v2 (ALBERT is cased by default)
@@ -272,6 +280,10 @@ HUGGINGFACE_DATASET_BY_MODEL = {
     "xlnet-base-cased-wnli": (
         "textattack/xlnet-base-cased-WNLI",
         ("glue", "wnli", "validation"),
+    ),
+    "xlnet-base-cased-mnli": (
+        "textattack/xlnet-base-cased-MNLI",
+        ("glue", "mnli", "validation"),
     ),
 }
 
