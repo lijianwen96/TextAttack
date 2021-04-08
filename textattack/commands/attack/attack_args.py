@@ -285,6 +285,10 @@ HUGGINGFACE_DATASET_BY_MODEL = {
         "textattack/xlnet-base-cased-MNLI",
         ("glue", "mnli", "validation"),
     ),
+    "xlnet-base-cased-qnli": (
+        "textattack/xlnet-base-cased-QNLI",
+        ("glue", "qnli", "validation"),
+    ),
 }
 
 
