@@ -253,6 +253,10 @@ HUGGINGFACE_DATASET_BY_MODEL = {
     #
     # xlnet-base-cased
     #
+    "xlnet-base-cased-sst2": (
+        "textattack/xlnet-base-cased-SST-2",
+        ("glue", "sst2", "validation"),
+    ),
     "xlnet-base-cased-cola": (
         "textattack/xlnet-base-cased-CoLA",
         ("glue", "cola", "validation"),
